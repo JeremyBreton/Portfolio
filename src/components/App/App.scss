@@ -13,7 +13,13 @@
   }
 
   &-header {
-    background-color: v.$color-bg;
+    // background-color: v.$color-bg;
+    background: rgb(47, 24, 93);
+    background: linear-gradient(
+      300deg,
+      rgba(47, 24, 93, 1) 0%,
+      rgba(16, 0, 48, 1) 100%
+    );
     min-height: 100vh;
     display: flex;
     flex-direction: row;
@@ -42,7 +48,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);
@@ -52,7 +58,24 @@
 .imgScale {
   width: 15%;
   margin-right: 2rem;
+  margin-left: 2rem;
   @media (prefers-reduced-motion: no-preference) {
     animation: App-img-scale infinite 10s linear;
   }
+}
+
+h1 {
+  color: v.$color;
+}
+
+h2 {
+  color: v.$color-primary;
+}
+
+h3 {
+  color: v.$color-secondary;
+}
+
+h4 {
+  color: v.$mercedesf1color;
 }
