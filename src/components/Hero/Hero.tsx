@@ -4,7 +4,7 @@ import logoRedux from '../../../public/images/logo-redux.png';
 import logoJavascript from '../../../public/images/logo-javascript.png';
 import logoPostgresql from '../../../public/images/logo-postgres.png';
 import logoWordpress from '../../../public/images/logo-wordpress.png';
-import logoNodeJs from '../../../public/images/logo-nodejs.png';
+import logoNodeJs from '../../../public/images/logo-nodejs-2.png';
 
 import './Hero.scss';
 
@@ -15,8 +15,10 @@ function Hero() {
         <h2>Jérémy Breton</h2>
         <h3>Développeur Web Fullstack</h3>
         <p>
-          Passionte frontend developer | Transforming Ideas into seamless and
-          visually stunning web solutions
+          Je suis à la recherche d’une <strong>ALTERNANCE</strong> pour réaliser
+          une formation de « Concepteur Développeur d’Applications Web » avec
+          l’école O’Clock, à partir du
+          <strong> 25 mars</strong>
         </p>
       </div>
 
