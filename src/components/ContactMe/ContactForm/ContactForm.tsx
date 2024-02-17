@@ -7,12 +7,12 @@ function ContactForm() {
     <div className="contact-form-content">
       <form>
         <div className="name-container">
-          <input type="text" name="firstname" placeholder="Fist Name" />
-          <input type="text" name="lastname" placeholder="Last Name" />
+          <input type="text" name="firstname" placeholder="Prénom" />
+          <input type="text" name="lastname" placeholder="Nom" />
         </div>
         <input type="text" name="email" placeholder="Email" />
-        <textarea name="message" placeholder="message" rows="3" />
-        <button>SEND</button>
+        <textarea name="message" placeholder="Message" rows="3" />
+        <button>ENVOYER</button>
       </form>
     </div>
   );

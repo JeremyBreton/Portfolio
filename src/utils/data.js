@@ -42,43 +42,34 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: 'Senior Frontend Developer at Tech Inovator',
-    date: 'January 2022 - Present',
+    title: 'Développeur Front-End React @WeekAway',
+    date: 'Novembre 2023',
     responsabilities: [
-      "Led a team of frontend developers in redesign of the company's flagship product.",
-      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
-      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
-      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+      `Projet de fin de formation : création d'une application web en groupe`,
+      'Développement côté front avec React et Redux',
+      'Utilisation de Material-UI',
+      'Connexion à notre API back',
     ],
   },
   {
-    title: 'Senior Frontend Developer at Tech Inovator',
-    date: 'January 2022 - Present',
+    title: 'Concepteur de sites Wordpress @Auto-entreprise',
+    date: '2019 - 2023',
     responsabilities: [
-      "Led a team of frontend developers in redesign of the company's flagship product.",
-      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
-      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
-      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+      'Création de sites avec Wordpress',
+      'Diététicien coach-sportif : mallory-sport-equilibre.fr ',
+      'Auto-école : autoecolesaintantoine.fr',
+      'Chaudronnerie : huaume.fr',
+      'Concession automobile : saussereau.com',
     ],
   },
   {
-    title: 'Senior Frontend Developer at Tech Inovator',
-    date: 'January 2022 - Present',
+    title: 'Responsable Marketing Digital @Onwebb',
+    date: '2019 - 2022',
     responsabilities: [
-      "Led a team of frontend developers in redesign of the company's flagship product.",
-      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
-      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
-      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
-    ],
-  },
-  {
-    title: 'Senior Frontend Developer at Tech Inovator',
-    date: 'January 2022 - Present',
-    responsabilities: [
-      "Led a team of frontend developers in redesign of the company's flagship product.",
-      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
-      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
-      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+      'Gestion de sites Wordpress et Prestashop',
+      'Référencement naturel et payant',
+      'Graphisme',
+      'Community Management',
     ],
   },
 ];
