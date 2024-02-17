@@ -17,7 +17,7 @@
   border-bottom: 1.5px solid #6751b9;
 }
 
-.skills-info-content {
+.skill-info-content {
   padding: 2rem;
 }
 .skill-info {
@@ -52,4 +52,16 @@
   background: linear-gradient(90deg, #aa94fe -50%, #7d60e6 50%);
   border-radius: 0.5rem;
   transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 1025px) {
+  .skills-info-card h6 {
+    font-size: 1.1rem;
+  }
+  .skill-info p {
+    font-size: 0.9rem;
+  }
+  .skills-info-content {
+    padding: 1.5rem;
+  }
 }

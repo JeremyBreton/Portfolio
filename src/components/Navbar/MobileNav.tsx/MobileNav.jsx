@@ -9,7 +9,11 @@ function MobileNav({ isOpen, toggleMenu }) {
       onClick={toggleMenu}
     >
       <div className="mobile-menu-container">
-        <img className="logo" src={memoji5} alt="Jérémy Breton logo" />
+        <div className="mobile-menu-container-logo">
+          {/* <img className="logo" src={memoji5} alt="Jérémy Breton logo" /> */}
+          <p className="logo-content">jérémy</p>
+          <p className="logo-content">breton.</p>
+        </div>
         <ul>
           <li>
             <a href="#" className="menu-item">

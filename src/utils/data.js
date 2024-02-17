@@ -39,3 +39,46 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const WORK_EXPERIENCE = [
+  {
+    title: 'Senior Frontend Developer at Tech Inovator',
+    date: 'January 2022 - Present',
+    responsabilities: [
+      "Led a team of frontend developers in redesign of the company's flagship product.",
+      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
+      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
+      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+    ],
+  },
+  {
+    title: 'Senior Frontend Developer at Tech Inovator',
+    date: 'January 2022 - Present',
+    responsabilities: [
+      "Led a team of frontend developers in redesign of the company's flagship product.",
+      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
+      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
+      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+    ],
+  },
+  {
+    title: 'Senior Frontend Developer at Tech Inovator',
+    date: 'January 2022 - Present',
+    responsabilities: [
+      "Led a team of frontend developers in redesign of the company's flagship product.",
+      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
+      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
+      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+    ],
+  },
+  {
+    title: 'Senior Frontend Developer at Tech Inovator',
+    date: 'January 2022 - Present',
+    responsabilities: [
+      "Led a team of frontend developers in redesign of the company's flagship product.",
+      'Implement advanced CSS animation and transitions to enhance the overall user experience.',
+      'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive website.',
+      'Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.',
+    ],
+  },
+];

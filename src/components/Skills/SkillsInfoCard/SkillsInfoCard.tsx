@@ -5,7 +5,7 @@ function SkillsInfoCard({ heading, skills }) {
   return (
     <div className="skills-info-card">
       <h6>{heading}</h6>
-      <div className="skills-info-content">
+      <div className="skill-info-content">
         {skills.map((item, index) => (
           <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">

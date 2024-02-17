@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  height: 90vh;
 }
 
 .hero-container::after,
@@ -34,6 +35,13 @@
   font-size: 3.8rem;
   font-weight: 600;
   line-height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content h3 {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -81,6 +89,10 @@
   transition: all 0.3s ease;
 }
 
+#nodejs {
+  filter: drop-shadow(0 0 0.1rem #fff);
+}
+
 .hero-img > div > img:hover,
 .tech-icon img:hover {
   transform: translateY(-0.5rem);
@@ -91,6 +103,7 @@
     font-size: 3rem;
     line-height: 4rem;
   }
+
   .hero-content p {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -121,6 +134,7 @@
     margin-top: 3rem;
   }
   .hero-content h2,
+  .hero-content h3,
   .hero-content p {
     width: auto;
     text-align: center;
@@ -146,6 +160,10 @@
     font-size: 2.2rem;
     line-height: 3rem;
   }
+  .hero-content h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
   .hero-content p {
     font-size: 0.8rem;
     line-height: 1.3rem;
@@ -165,5 +183,22 @@
   }
   .tech-icon img {
     width: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-content {
+    flex: 0;
+  }
+  .tech-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between; /* Pour espacer les éléments uniformément */
+  }
+  .tech-icon-container .tech-icon {
+    flex-basis: calc(33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
   }
 }

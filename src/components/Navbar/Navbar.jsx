@@ -14,11 +14,15 @@ function Navbar() {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img
+          <div className="nav-logo-container">
+            <p className="logo-content">jérémy</p>
+            <p className="logo-content">breton.</p>
+          </div>
+          {/* <img
             className="logo"
             src={memoji5}
             alt="Jérémy Breton, développeur web fullstack"
-          />
+          /> */}
           <ul>
             <li>
               <a href="/" className="menu-item">
