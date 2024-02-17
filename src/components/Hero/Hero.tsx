@@ -16,7 +16,8 @@ function Hero() {
         <h3>Développeur Web Fullstack</h3>
         <p>
           Je suis à la recherche d’une <strong>ALTERNANCE</strong> pour réaliser
-          une formation de « Concepteur Développeur d’Applications Web » avec
+          une formation de{' '}
+          <strong>« Concepteur Développeur d’Applications Web »</strong> avec
           l’école O’Clock, à partir du
           <strong> 25 mars</strong>
         </p>

@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import './Skills.scss';
-import { PROJECTS } from '../../utils/data';
+import { SKILLS } from '../../utils/data';
 import SkillCard from './SkillCard/SkillCard';
 import SkillsInfoCard from './SkillsInfoCard/SkillsInfoCard';
 
 function Skills() {
-  const [selectedSkill, setSelectedSkill] = useState(PROJECTS[0]);
+  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
   const handleSelectSkill = (data) => {
     setSelectedSkill(data);
   };
   return (
     <section className="skills-container">
-      <h5>Projets</h5>
+      <h5>Skills</h5>
       <div className="skills-content">
         <div className="skills">
-          {PROJECTS.map((item) => (
+          {SKILLS.map((item) => (
             <SkillCard
               key={item.title}
               iconUrl={item.icon}
@@ -30,9 +30,6 @@ function Skills() {
           <SkillsInfoCard
             heading={selectedSkill.title}
             skills={selectedSkill.skills}
-            stack={selectedSkill.stack}
-            screenshot={selectedSkill.screenshot}
-            link={selectedSkill.link}
           />
         </div>
       </div>

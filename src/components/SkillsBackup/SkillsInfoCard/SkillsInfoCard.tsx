@@ -1,24 +1,12 @@
 import React from 'react';
 import './SkillsInfoCard.scss';
 
-function SkillsInfoCard({ heading, skills, stack, screenshot, link }) {
+function SkillsInfoCard({ heading, skills }) {
   return (
     <div className="skills-info-card">
-      <h6>
-        {heading}
-        {/* ! TAGS pour Stack utilisé */}
-        {/* <span>
-          {stack.map((item) => (
-            <span key={item.name}>{item.name} </span>
-            ))}
-          </span> */}
-      </h6>
-
+      <h6>{heading}</h6>
       <div className="skill-info-content">
-        <a href={link} target="blank">
-          <img src={screenshot} alt={heading} />
-        </a>
-        {/* {skills.map((item, index) => (
+        {skills.map((item, index) => (
           <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">
               <p>{item.skills}</p>
@@ -31,7 +19,7 @@ function SkillsInfoCard({ heading, skills, stack, screenshot, link }) {
               />
             </div>
           </React.Fragment>
-        ))} */}
+        ))}
       </div>
     </div>
   );

@@ -16,13 +16,13 @@ function MobileNav({ isOpen, toggleMenu }) {
         </div>
         <ul>
           <li>
-            <a href="#" className="menu-item">
-              Skills
+            <a href="/" className="menu-item">
+              Projets
             </a>
           </li>
           <li>
-            <a href="#" className="menu-item">
-              Projets
+            <a href="/" className="menu-item">
+              Expériences
             </a>
           </li>
           <button className="button-contact" onClick={() => {}}>

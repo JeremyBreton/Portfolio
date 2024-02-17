@@ -35,7 +35,7 @@ function WorkExperience() {
 
   return (
     <section className="experience-container">
-      <h5>Expériences</h5>
+      <h5 id="experience">Expériences</h5>
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
           <span>&gt;</span>

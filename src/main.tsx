@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Navbar />
     <div className="container">
       <Hero />
-      {/* <Skills /> */}
+      <Skills />
       <WorkExperience />
       {/* <ContactMe /> */}
     </div>

@@ -1,8 +1,16 @@
 /* eslint-disable import/prefer-default-export */
-export const SKILLS = [
+export const PROJECTS = [
   {
-    title: 'Frontend',
+    title: 'WeekAway',
     icon: 'public/images/memoji-1.png',
+    screenshot: 'public/images/screenshot-weekaway.png',
+    link: 'https://weekaway-front.netlify.app/',
+    stack: [
+      { name: 'JavaScript' },
+      { name: 'React' },
+      { name: 'Redux' },
+      { name: 'Material-UI' },
+    ],
     skills: [
       { skills: 'HTML5', percentage: '80%' },
       { skills: 'CSS/SCSS', percentage: '50%' },
@@ -11,16 +19,22 @@ export const SKILLS = [
     ],
   },
   {
-    title: 'Backend',
+    title: 'Guessing Game',
     icon: 'public/images/memoji-2.png',
+    screenshot: 'public/images/screenshot-guessinggame.png',
+    link: 'https://guessinggame-jeremybreton.netlify.app/',
+    stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'Redux' }],
     skills: [
       { skills: 'Node.js', percentage: '80%' },
       { skills: 'Express.js', percentage: '50%' },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Portfolio',
     icon: 'public/images/memoji-3.png',
+    screenshot: 'public/images/screenshot-portfolio.png',
+    link: '',
+    stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'SCSS' }],
     skills: [
       { skills: 'Git & Github', percentage: '80%' },
       { skills: 'VS Code', percentage: '50%' },
@@ -29,8 +43,11 @@ export const SKILLS = [
     ],
   },
   {
-    title: 'Soft skills',
+    title: 'Sites Wordpress',
     icon: 'public/images/memoji-4.png',
+    screenshot: 'public/images/screenshot-wordpress-mallory.png',
+    link: 'https://www.mallory-sport-equilibre.fr/',
+    stack: [{ name: 'WordPress' }],
     skills: [
       { skills: 'Problem solving', percentage: '80%' },
       { skills: 'Collaboration', percentage: '50%' },
@@ -73,3 +90,45 @@ export const WORK_EXPERIENCE = [
     ],
   },
 ];
+
+// /* eslint-disable import/prefer-default-export */
+// export const SKILLS = [
+//   {
+//     title: 'Frontend',
+//     icon: 'public/images/memoji-1.png',
+//     skills: [
+//       { skills: 'HTML5', percentage: '80%' },
+//       { skills: 'CSS/SCSS', percentage: '50%' },
+//       { skills: 'JavaScript', percentage: '20%' },
+//       { skills: 'ReactJS', percentage: '40%' },
+//     ],
+//   },
+//   {
+//     title: 'Backend',
+//     icon: 'public/images/memoji-2.png',
+//     skills: [
+//       { skills: 'Node.js', percentage: '80%' },
+//       { skills: 'Express.js', percentage: '50%' },
+//     ],
+//   },
+//   {
+//     title: 'Tools',
+//     icon: 'public/images/memoji-3.png',
+//     skills: [
+//       { skills: 'Git & Github', percentage: '80%' },
+//       { skills: 'VS Code', percentage: '50%' },
+//       { skills: 'Webpack', percentage: '20%' },
+//       { skills: 'Responsive Design', percentage: '40%' },
+//     ],
+//   },
+//   {
+//     title: 'Soft skills',
+//     icon: 'public/images/memoji-4.png',
+//     skills: [
+//       { skills: 'Problem solving', percentage: '80%' },
+//       { skills: 'Collaboration', percentage: '50%' },
+//       { skills: 'Attention to detail', percentage: '20%' },
+//       { skills: 'Team work', percentage: '40%' },
+//     ],
+//   },
+// ];

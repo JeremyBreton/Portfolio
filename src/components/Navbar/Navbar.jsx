@@ -24,7 +24,25 @@ function Navbar() {
             alt="Jérémy Breton, développeur web fullstack"
           /> */}
           <ul>
-            <li>
+            {/* <li className="li-navbar">
+              <a href="#projets" className="menu-item">
+                Projets
+              </a>
+            </li>
+            <li className="li-navbar">
+              <a href="#experience" className="menu-item">
+                Expériences
+              </a>
+            </li> */}
+            <button
+              className="button-contact"
+              onClick={() => {
+                window.location.href = 'mailto:breton.jeremy@live.fr';
+              }}
+            >
+              Me contacter
+            </button>
+            <li className="li-logosvg">
               <a href="https://github.com/JeremyBreton/" target="blank">
                 <svg
                   width="2rem"
@@ -39,7 +57,7 @@ function Navbar() {
                 </svg>
               </a>
             </li>
-            <li>
+            <li className="li-logosvg">
               <a
                 href="https://www.linkedin.com/in/jeremy-breton-dev/"
                 target="blank"
@@ -59,24 +77,6 @@ function Navbar() {
                 </svg>
               </a>
             </li>
-            {/* <li>
-              <a href="/" className="menu-item">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="/" className="menu-item">
-                Projets
-              </a>
-            </li> */}
-            <button
-              className="button-contact"
-              onClick={() => {
-                window.location.href = 'mailto:breton.jeremy@live.fr';
-              }}
-            >
-              Me contacter
-            </button>
           </ul>
 
           <button className="menu-button" onClick={toggleMenu}>

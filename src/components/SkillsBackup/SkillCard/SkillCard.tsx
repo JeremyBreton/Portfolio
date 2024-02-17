@@ -1,7 +1,7 @@
 import React from 'react';
 import './SkillCard.scss';
 
-function SkillCard({ title, iconUrl, isActive, onClick, link }) {
+function SkillCard({ title, iconUrl, isActive, onClick }) {
   return (
     <div
       className={`skills-card ${isActive ? 'active' : ''}`}
