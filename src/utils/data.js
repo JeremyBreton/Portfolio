@@ -19,8 +19,8 @@ export const PROJECTS = [
   },
   {
     title: 'Guessing Game',
-    icon: 'public/images/memoji-2.png',
-    screenshot: '/public/images/screenshot-guessinggame.png',
+    icon: './images/memoji-2.png',
+    screenshot: './images/screenshot-guessinggame.png',
     link: 'https://guessinggame-jeremybreton.netlify.app/',
     stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'Redux' }],
     skills: [
@@ -30,8 +30,8 @@ export const PROJECTS = [
   },
   {
     title: 'Portfolio',
-    icon: '/public/images/memoji-3.png',
-    screenshot: '/public/images/screenshot-portfolio.png',
+    icon: './images/memoji-3.png',
+    screenshot: './images/screenshot-portfolio.png',
     link: '',
     stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'SCSS' }],
     skills: [
@@ -43,8 +43,8 @@ export const PROJECTS = [
   },
   {
     title: 'Sites Wordpress',
-    icon: '/public/images/memoji-4.png',
-    screenshot: '/public/images/screenshot-wordpress-mallory.png',
+    icon: './images/memoji-4.png',
+    screenshot: './images/screenshot-wordpress-mallory.png',
     link: 'https://www.mallory-sport-equilibre.fr/',
     stack: [{ name: 'WordPress' }],
     skills: [
