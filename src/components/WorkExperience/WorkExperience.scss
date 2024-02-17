@@ -54,10 +54,18 @@
     font-size: 1.3rem;
     margin-bottom: 2rem;
   }
+
   .arrow-left {
     left: -1rem;
   }
   .arrow-right {
     right: -1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .arrow-left span,
+  .arrow-right span {
+    font-size: 1.5rem;
   }
 }
