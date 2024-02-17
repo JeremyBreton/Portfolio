@@ -1,9 +1,10 @@
 /* eslint-disable import/prefer-default-export */
+
 export const PROJECTS = [
   {
     title: 'WeekAway',
-    icon: 'public/images/memoji-1.png',
-    screenshot: 'public/images/screenshot-weekaway.png',
+    icon: '../../../public/images/memoji-1.png',
+    screenshot: '../../../public/images/screenshot-weekaway.png',
     link: 'https://weekaway-front.netlify.app/',
     stack: [
       { name: 'JavaScript' },
@@ -20,8 +21,8 @@ export const PROJECTS = [
   },
   {
     title: 'Guessing Game',
-    icon: 'public/images/memoji-2.png',
-    screenshot: 'public/images/screenshot-guessinggame.png',
+    icon: '../../../public/images/memoji-2.png',
+    screenshot: '../../../public/images/screenshot-guessinggame.png',
     link: 'https://guessinggame-jeremybreton.netlify.app/',
     stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'Redux' }],
     skills: [
