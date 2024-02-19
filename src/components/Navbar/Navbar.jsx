@@ -1,6 +1,6 @@
 import './Navbar.scss';
 import { useState } from 'react';
-import menuburger from '../../../public/images/menu-burger-horizontal-thin.svg';
+import menuburger from '../../../public/images/menu-burger.svg';
 import MobileNav from './MobileNav.tsx/MobileNav';
 
 function Navbar() {
@@ -81,7 +81,7 @@ function Navbar() {
           <button className="menu-button" onClick={toggleMenu}>
             <span>
               {openMenu ? '' : ''}
-              <img src="./images/menu-burger-horizontal-thin.svg" />
+              <img src="./images/menu-burger.svg" />
             </span>
           </button>
         </div>
