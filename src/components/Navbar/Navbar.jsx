@@ -81,7 +81,7 @@ function Navbar() {
           <button className="menu-button" onClick={toggleMenu}>
             <span>
               {openMenu ? '' : ''}
-              <img src="./images/menu-burger.svg" />
+              <img src={menuburger} />
             </span>
           </button>
         </div>
