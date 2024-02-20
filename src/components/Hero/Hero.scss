@@ -121,6 +121,7 @@
 
 @media (max-width: 768px) {
   .hero-container {
+    height: 100%;
     flex-direction: column;
   }
   .hero-img {
@@ -152,6 +153,9 @@
 }
 
 @media (max-width: 600px) {
+  .hero-container {
+    height: 100%;
+  }
   .hero-content h2 {
     font-size: 2.2rem;
     line-height: 3rem;
