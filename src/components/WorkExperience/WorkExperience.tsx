@@ -3,6 +3,8 @@ import './WorkExperience.scss';
 import Slider from 'react-slick';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import { WORK_EXPERIENCE } from '../../utils/data';
+import chevronLeft from '../../../public/images/chevron-left.svg';
+import chevronRight from '../../../public/images/chevron-right.svg';
 
 declare module 'react-slick';
 
@@ -38,10 +40,12 @@ function WorkExperience() {
       <h5 id="experience">Expériences</h5>
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
-          <span>&gt;</span>
+          {/* <span>&gt;</span> */}
+          <img src={chevronRight} alt="chevron-right" />
         </div>
         <div className="arrow-left" onClick={slideLeft}>
-          <span>&lt;</span>
+          {/* <span>&lt;</span> */}
+          <img src={chevronLeft} alt="chevron-left" />
         </div>
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
