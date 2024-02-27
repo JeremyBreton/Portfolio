@@ -4,15 +4,7 @@ import './SkillsInfoCard.scss';
 function SkillsInfoCard({ heading, skills, stack, screenshot, link }) {
   return (
     <div className="skills-info-card">
-      <h6>
-        {heading}
-        {/* ! TAGS pour Stack utilisé */}
-        {/* <span>
-          {stack.map((item) => (
-            <span key={item.name}>{item.name} </span>
-            ))}
-          </span> */}
-      </h6>
+      <h6>{heading}</h6>
 
       <div className="skill-info-content">
         <a href={link} target="blank">
@@ -32,6 +24,15 @@ function SkillsInfoCard({ heading, skills, stack, screenshot, link }) {
             </div>
           </React.Fragment>
         ))} */}
+      </div>
+      <div className="skills-info-stack">
+        <span className="tag-stack">
+          {stack.map((item) => (
+            <span className="tag-stack-detail" key={item.name}>
+              {item.name}{' '}
+            </span>
+          ))}
+        </span>
       </div>
     </div>
   );

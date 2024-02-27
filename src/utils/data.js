@@ -22,7 +22,12 @@ export const PROJECTS = [
     icon: './images/memoji-2.png',
     screenshot: './images/screenshot-guessinggame.png',
     link: 'https://guessinggame-jeremybreton.netlify.app/',
-    stack: [{ name: 'JavaScript' }, { name: 'React' }, { name: 'Redux' }],
+    stack: [
+      { name: 'JavaScript' },
+      { name: 'React' },
+      { name: 'Redux' },
+      { name: 'SCSS' },
+    ],
     skills: [
       { skills: 'Node.js', percentage: '80%' },
       { skills: 'Express.js', percentage: '50%' },
