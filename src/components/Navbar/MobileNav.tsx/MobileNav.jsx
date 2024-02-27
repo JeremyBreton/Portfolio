@@ -25,7 +25,12 @@ function MobileNav({ isOpen, toggleMenu }) {
               Expériences
             </a>
           </li>
-          <button className="button-contact" onClick={() => {}}>
+          <button
+            className="button-contact"
+            onClick={() => {
+              window.location.href = 'mailto:breton.jeremy@live.fr';
+            }}
+          >
             Me contacter
           </button>
         </ul>
