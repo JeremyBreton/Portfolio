@@ -134,9 +134,7 @@ svg:hover {
 
 @media (max-width: 769px) {
   .menu-button {
-    display: block; // Ou display: inline-block;
-    width: 2.5rem; // Largeur de votre icône de menuburger
-    height: 2.5rem; // Hauteur de votre icône de menuburger
+    display: block;
   }
   .nav-content ul {
     display: none;
