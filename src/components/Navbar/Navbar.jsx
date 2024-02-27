@@ -78,7 +78,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <button className="menu-button" onClick={toggleMenu}>
+          <button type="button" className="menu-button" onClick={toggleMenu}>
             <span>
               {openMenu ? '' : ''}
               <img src={menuburger} alt="menu-burger-icon" />
