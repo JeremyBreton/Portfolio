@@ -130,14 +130,11 @@ svg:hover {
     width: 5rem;
     height: auto;
   }
-  .menu-button {
-    display: flex;
-  }
 }
 
 @media (max-width: 769px) {
   .menu-button {
-    display: block;
+    display: flex;
   }
   .nav-content ul {
     display: none;
