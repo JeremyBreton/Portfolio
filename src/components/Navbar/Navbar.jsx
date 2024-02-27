@@ -1,6 +1,6 @@
 import './Navbar.scss';
 import { useState } from 'react';
-import menuburger from '../../../public/images/menu-burger.png';
+import menuburger from '../../../public/images/menu-burger.svg';
 import MobileNav from './MobileNav.tsx/MobileNav';
 
 function Navbar() {
