@@ -11,7 +11,7 @@ function Skills() {
   };
   return (
     <section className="skills-container">
-      <h5>Projets</h5>
+      <h5 id="projets">Projets</h5>
       <div className="skills-content">
         <div className="skills">
           {PROJECTS.map((item) => (

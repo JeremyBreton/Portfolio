@@ -37,6 +37,18 @@
   margin-left: -2rem;
 }
 
+.button-contact {
+  margin-left: 0rem;
+}
+
+.navbar-logo-container {
+  display: flex;
+
+  & li {
+    margin-right: 0.5rem;
+  }
+}
+
 @media (max-width: 769px) {
   .mobile-menu-container-logo {
     margin-bottom: 1.5rem;

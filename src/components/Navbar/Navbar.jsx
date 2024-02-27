@@ -23,7 +23,7 @@ function Navbar() {
             alt="Jérémy Breton, développeur web fullstack"
           /> */}
           <ul>
-            {/* <li className="li-navbar">
+            <li className="li-navbar">
               <a href="#projets" className="menu-item">
                 Projets
               </a>
@@ -32,7 +32,7 @@ function Navbar() {
               <a href="#experience" className="menu-item">
                 Expériences
               </a>
-            </li> */}
+            </li>
             <button
               className="button-contact"
               onClick={() => {
