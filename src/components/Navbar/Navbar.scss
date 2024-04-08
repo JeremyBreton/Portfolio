@@ -1,12 +1,12 @@
 @use '../../styles/variables' as v;
 
 .nav-wrapper {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0, 5rem 0;
   position: sticky;
   top: 0;
   z-index: 30;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
 }
 
 .nav-content {
