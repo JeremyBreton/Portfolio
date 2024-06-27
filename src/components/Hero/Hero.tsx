@@ -19,7 +19,10 @@ function Hero() {
           une formation de{' '}
           <strong>« Concepteur Développeur d’Applications Web »</strong> avec
           l’école O’Clock, à partir d'
-          <strong>octobre 2024</strong>
+          <strong>octobre 2024</strong>,
+          <p>
+            ou d'un premier contrat en <strong>CDD/CDI</strong>
+          </p>
         </p>
       </div>
 
