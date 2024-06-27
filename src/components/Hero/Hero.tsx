@@ -18,8 +18,8 @@ function Hero() {
           Je suis à la recherche d’une <strong>ALTERNANCE</strong> pour réaliser
           une formation de{' '}
           <strong>« Concepteur Développeur d’Applications Web »</strong> avec
-          l’école O’Clock, à partir de
-          <strong> juin ou octobre 2024</strong>
+          l’école O’Clock, à partir d'
+          <strong>octobre 2024</strong>
         </p>
       </div>
 
