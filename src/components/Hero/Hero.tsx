@@ -17,12 +17,13 @@ function Hero() {
         <p>
           Je suis à la recherche d’une <strong>ALTERNANCE</strong> pour réaliser
           une formation de{' '}
-          <strong>« Concepteur Développeur d’Applications Web »</strong> avec
-          l’école O’Clock, à partir d'
-          <strong>octobre 2024</strong>,
+          <strong>« Concepteur Développeur d’Applications Web »</strong>
           <p>
-            ou d'un premier contrat en <strong>CDD/CDI</strong>
+            à partir de <strong> septembre 2024</strong>
           </p>
+          {/* <p>
+            ou d'un premier contrat en <strong>CDD/CDI</strong>
+          </p> */}
         </p>
       </div>
 
