@@ -49,8 +49,8 @@ export const PROJECTS = [
   {
     title: 'Sites Wordpress',
     icon: './images/memoji-4.png',
-    screenshot: './images/screenshot-wordpress-autoecolesaintantoine.png',
-    link: 'https://autoecolesaintantoine.fr/',
+    screenshot: './images/screenshot-wordpress-mallory.png',
+    link: 'https://www.mallory-sport-equilibre.fr/',
     stack: [{ name: 'WordPress' }],
     skills: [
       { skills: 'Problem solving', percentage: '80%' },
