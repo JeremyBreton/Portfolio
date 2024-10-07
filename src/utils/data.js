@@ -66,31 +66,26 @@ export const WORK_EXPERIENCE = [
     title: 'Développeur Front-End React @WeekAway',
     date: 'Novembre 2023',
     responsabilities: [
-      `Projet de fin de formation : création d'une application web en groupe`,
-      'Développement côté front avec React et Redux',
-      'Utilisation de Material-UI',
-      'Connexion à notre API back',
+      {
+        text: `Projet de fin de formation : création d'une application web en groupe`,
+      },
+      { text: 'Développement côté front avec React et Redux' },
+      { text: 'Utilisation de Material-UI' },
+      { text: 'Connexion à notre API back' },
     ],
   },
   {
     title: 'Concepteur de sites Wordpress @Auto-entreprise',
     date: '2019 - 2023',
     responsabilities: [
-      'Création de sites avec Wordpress',
-      'Diététicien coach-sportif : mallory-sport-equilibre.fr ',
-      'Auto-école : autoecolesaintantoine.fr',
-      'Chaudronnerie : huaume.fr',
-      'Concession automobile : saussereau.com',
-    ],
-  },
-  {
-    title: 'Responsable Marketing Digital @Onwebb',
-    date: '2019 - 2022',
-    responsabilities: [
-      'Gestion de sites Wordpress et Prestashop',
-      'Référencement naturel et payant',
-      'Graphisme',
-      'Community Management',
+      { text: 'Création de sites avec Wordpress' },
+      {
+        text: 'Diététicien coach-sportif : ',
+        link: 'https://www.mallory-sport-equilibre.fr/',
+      },
+      { text: 'Auto-école : ', link: 'https://autoecolesaintantoine.fr/' },
+      { text: 'Chaudronnerie : ', link: 'https://huaume.fr/' },
+      { text: 'Concession automobile : ', link: 'https://saussereau.com/' },
     ],
   },
 ];
