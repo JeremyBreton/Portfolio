@@ -88,6 +88,19 @@ export const WORK_EXPERIENCE = [
       { text: 'Concession automobile : ', link: 'https://saussereau.com/' },
     ],
   },
+  {
+    title: 'Responsable Marketing Digital @Onwebb',
+    date: '2019 - 2022',
+    responsabilities: [
+      {
+        text: 'Gestion de sites Wordpress et Prestashop : ',
+        link: 'https://bomoi.fr/',
+      },
+      { text: 'Référencement naturel et payant' },
+      { text: 'Graphisme' },
+      { text: 'Community Management' },
+    ],
+  },
 ];
 
 // /* eslint-disable import/prefer-default-export */
