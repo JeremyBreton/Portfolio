@@ -77,10 +77,10 @@ export const WORK_EXPERIENCE = [
     date: '2019 - 2023',
     responsabilities: [
       'Création de sites avec Wordpress',
-      'Diététicien coach-sportif : mallory-sport-equilibre.fr ',
-      'Auto-école : autoecolesaintantoine.fr',
-      'Chaudronnerie : huaume.fr',
-      'Concession automobile : saussereau.com',
+      'Diététicien coach-sportif : <a href="https://www.mallory-sport-equilibre.fr/" target="_blank">mallory-sport-equilibre.fr</a>',
+      'Auto-école : <a href="https://autoecolesaintantoine.fr/" target="_blank">autoecolesaintantoine.fr</a>',
+      'Chaudronnerie : <a href="https://huaume.fr/" target="_blank">huaume.fr</a>',
+      'Concession automobile : <a href="https://saussereau.com/" target="_blank">saussereau.com</a>',
     ],
   },
   {
